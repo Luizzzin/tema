@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #910DA7;
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#cabecalho{
+    display: flex;
+    width: 99vw;
+    height: 150px;
+    padding-top: 50px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.p{
+font: 400 30px 'sophia';
+color: white;
+}
+#titulo{
+    font: 600 50px 'sophia';
+    margin-right: 200px;
+    color: white;
+    margin-left: 50px;
+}
+#viva{
+    color: rgb(143, 252, 54);
+}
+@font-face {
+    font-family: 'sophia';
+    src: url(SofiaSans[wght].ttf);
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 10px;
+}
+/* div das imagens do homem */
+#homem{
+    border-radius: 40px;
+    z-index: 3;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#verdin{
+    background-color: rgb(116, 201, 46) ;
+    width: 367px;
+    height: 418px;
+    border-radius: 50px;
+    z-index: 1;
+    position: absolute;
+}
+#imagens{
+height: 500px;
+width: 700px;
+padding-left: 200px;
+}
+/* fim div da imagem do homem */
+/* texto do lado */
+#side{
+    font: 600 60px 'sophia';
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+/* texto fim */
+/* parte de serviços */
+#servicos{
+    width: 98vw;
+    height: 100vh;
+}
+
+#nosso{
+    margin-top: 130px;
+    margin-left: 130px;
+    font: 600 60pxaa 'sophia';
+}
+
